@@ -13,7 +13,7 @@ existing_branch.checkout()
 print(repo.git.status())
 
 # Add files
-repo.index.add('*')
+print(repo.index.add('*'))
 
 # Input commit message.
 repo.index.commit(
